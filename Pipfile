@@ -4,8 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+cairo-nile = "*"
+requests = "*"
+openzeppelin-cairo-contracts = "*"
 
 [dev-packages]
+tox = "*"
 
 [requires]
 python_version = "3.7"
